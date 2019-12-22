@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my TodoList</title>
+
+    <link rel="stylesheet" href="new.css">
+</head>
+
+
+<body>
+    <div id="main">
+        <div class="pp"><span>My TodoList</span></div>
+        <div id="tabList">
+            <ul>
+                <li class="onclick">待办</li>
+                <li>完成</li>
+            </ul>
+        </div>
+        <div id="list">
+            <div class="new l" style="display: block;">
+                <div id="input">
+                    <input type="text" id="newWork" placeholder="输入新建事项">
+                    <button id="add" class="bu">+</button>
+                </div>
+                <div id="do"></div>
+                <div class="clear">
+                    <button class="c_add bu" id="toNew">清空</button>
+                </div>
+            </div>
+            <div class="done l">
+                <div id="done"></div>
+                <div class="clear">
+                    <button class="c_add bu" id="toDone">清空</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jQuery.min.js"></script>
+<script src="myList.js"></script>
+
+</html>

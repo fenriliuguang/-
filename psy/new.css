@@ -1,0 +1,147 @@
+#main {
+    font-size: 0;
+    height: 1080px;
+    width: 1026px;
+    position: absolute;
+    left: calc(50% - 1026px/2);
+    overflow: hidden;
+}
+
+.pp {
+    height: 155px;
+    width: 1026px;
+    text-align: center;
+    font-size: 81px;
+}
+
+#tabList {
+    border-radius: 13px 13px 0 0;
+    width: 1026px;
+    height: 69px;
+    background-color: rgb(133, 133, 133);
+}
+
+#list {
+    width: 1026px;
+    height: 856px;
+}
+
+#input {
+    width: 1026px;
+    height: 135px;
+}
+
+input {
+    line-height: 0;
+    padding: 14px 25px;
+    outline-style: none;
+    font-size: 25px;
+    width: 778px;
+    height: 81px;
+    position: relative;
+    left: calc(50% - 778px/2);
+    top: calc(50% - 81px/2);
+    border-radius: 13px;
+    border: none;
+}
+
+button {
+    outline: none;
+}
+
+.bu {
+    box-shadow: 2px 2px rgb(131, 131, 131);
+}
+
+#add {
+    border: none;
+    width: 52px;
+    height: 52px;
+    position: relative;
+    left: 130px;
+    top: 21px;
+    border-radius: 100%;
+}
+
+li {
+    display: block;
+    float: left;
+    width: 207px;
+    height: 69px;
+    font-size: 41px;
+    text-align: center;
+}
+
+.onclick {
+    border-radius: 13px 13px 0 0;
+    background-color: #B5B5B5;
+    box-shadow: 1px 0 0px black;
+}
+
+.new {
+    background-color: #B5B5B5;
+    width: 1026px;
+    height: 856px;
+}
+
+#do {
+    width: 1026px;
+    height: 582px;
+}
+
+.clear {
+    width: 1026px;
+    height: 139px;
+    background-color: #B5B5B5;
+}
+
+.c_add {
+    border: none;
+    width: 109px;
+    height: 54px;
+    position: relative;
+    top: calc(50% - 54px/2);
+    left: calc(94% - 109px/2);
+    border-radius: 27px;
+    font-size: 31px;
+}
+
+#done {
+    width: 1026px;
+    height: 751px;
+    background-color: #B5B5B5;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#done::-webkit-scrollbar {
+    display: none;
+}
+
+.works {
+    margin: 1px;
+    background-color: white;
+    padding: 14px 25px;
+    font-size: 25px;
+    width: 778px;
+    height: 81px;
+    border-radius: 13px;
+    position: relative;
+    top: 1px;
+    left: calc(50% - 778px/2);
+}
+
+#do {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.works:hover {
+    background-color: rgba(223, 219, 219, 0.842);
+}
+
+#do::-webkit-scrollbar {
+    display: none;
+}
