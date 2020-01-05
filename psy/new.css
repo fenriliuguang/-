@@ -29,19 +29,37 @@
 #input {
     width: 1026px;
     height: 135px;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-orient: vertical;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-orient: vertical;
+    box-pack: center;
+    box-align: center;
+    box-align: center;
 }
 
-input {
-    line-height: 0;
-    padding: 14px 25px;
+.input_1 {
+    padding: 10px 25px;
     outline-style: none;
     font-size: 25px;
     width: 778px;
     height: 81px;
-    position: relative;
-    left: calc(50% - 778px/2);
-    top: calc(50% - 81px/2);
     border-radius: 13px;
+    border: none;
+}
+
+.input_2 {
+    font-size: 25px;
+    width: 778px;
+    height: 81px;
+    outline-style: none;
+    line-height: 0;
     border: none;
 }
 
@@ -51,16 +69,6 @@ button {
 
 .bu {
     box-shadow: 2px 2px rgb(131, 131, 131);
-}
-
-#add {
-    border: none;
-    width: 52px;
-    height: 52px;
-    position: relative;
-    left: 130px;
-    top: 21px;
-    border-radius: 100%;
 }
 
 li {
@@ -87,6 +95,15 @@ li {
 #do {
     width: 1026px;
     height: 582px;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    display: box;
+    box-orient: vertical;
+    box-align: center;
 }
 
 .clear {
@@ -108,11 +125,20 @@ li {
 
 #done {
     width: 1026px;
-    height: 751px;
+    height: 717px;
     background-color: #B5B5B5;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    display: box;
+    box-orient: vertical;
+    box-align: center;
 }
 
 #done::-webkit-scrollbar {
@@ -120,16 +146,14 @@ li {
 }
 
 .works {
-    margin: 1px;
+    margin: 3px;
     background-color: white;
-    padding: 14px 25px;
+    padding: 10px 25px;
     font-size: 25px;
     width: 778px;
     height: 81px;
     border-radius: 13px;
-    position: relative;
     top: 1px;
-    left: calc(50% - 778px/2);
 }
 
 #do {
@@ -138,10 +162,36 @@ li {
     scrollbar-width: none;
 }
 
-.works:hover {
-    background-color: rgba(223, 219, 219, 0.842);
-}
-
 #do::-webkit-scrollbar {
     display: none;
+}
+
+.icon {
+    font-size: 0px;
+    height: 81px;
+    width: 27px;
+    float: right;
+}
+
+.items {
+    overflow: hidden;
+    height: 81px;
+    width: 680px;
+    float: left;
+}
+
+img {
+    height: 27px;
+    width: 27px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.compiling {
+    border: 5px solid blue;
 }
